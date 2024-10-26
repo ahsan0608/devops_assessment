@@ -31,6 +31,7 @@ jobs:
         with:
           resource-group: devops-assessment-rg
           cluster-name: selise-aks-cluster
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Update deployment
         run: |
