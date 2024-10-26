@@ -78,7 +78,7 @@ kubectl get nodes
 ### Deploy the Sample Application Manually
 
 #### Build Docker Image
-##### Added a Docker file in the application directory.
+##### Added a Docker file in the application directory. [Link](https://github.com/ahsan0608/devops_assessment/blob/main/Dockerfile):
 ```yaml
 FROM node:18-alpine
 WORKDIR /usr/src/app
@@ -302,7 +302,7 @@ az storage blob upload --container-name ahsanselisecontainer --file ./dummyfile.
 <img width="795" alt="Screenshot 2024-09-20 at 11 49 57 PM" src="https://github.com/user-attachments/assets/8233e53d-6f0b-4385-97e6-57cd0bd6273e">
 
 #### Update Application Code
-After uploading the blob, i updated the application's index.js file to access the uploaded file:
+After uploading the blob, i updated the application's index.js file to access the uploaded file [Link](https://github.com/ahsan0608/devops_assessment/blob/main/index.js):
 
 ```javascript
 Copy code
@@ -368,7 +368,7 @@ az network nsg rule create \
 In the Bastion VM, i configured a GitHub Actions self-hosted runner to have access to the AKS cluster for deployment updates
 <img width="795" alt="Screenshot 2024-09-20 at 11 49 57 PM" src="https://github.com/user-attachments/assets/a658913c-58ae-43fe-b243-f16d95ac4a6f">
 
-#### GitHub Actions Workflow
+#### GitHub Actions Workflow [Link](https://github.com/ahsan0608/devops_assessment/blob/main/.github/workflows/deploy.yml)
 ```yaml
 name: CI/CD Pipeline
 
