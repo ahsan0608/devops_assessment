@@ -77,7 +77,6 @@ kubectl get nodes
 
 ### Deploy the Sample Application Manually
 
-#### Build Docker Image
 ##### Added a Docker file in the application directory. [Link](https://github.com/ahsan0608/devops_assessment/blob/main/Dockerfile):
 ```yaml
 FROM node:18-alpine
