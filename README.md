@@ -413,3 +413,7 @@ jobs:
 #### Workflow Status
 The workflow runs successfully, and all steps completed without errors. The application is deployed, and you can view the successful run here -
 [Action Link](https://github.com/ahsan0608/devops_assessment/actions/runs/11529184113/job/32097310800)
+
+## Deployment Script
+
+Script for automating the process of setting up all the resources and configurations required for the assessment - [here](https://github.com/ahsan0608/devops_assessment/blob/main/deploy-script.sh).
