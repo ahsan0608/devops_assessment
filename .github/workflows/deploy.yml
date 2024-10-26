@@ -35,4 +35,4 @@ jobs:
 
       - name: Update deployment
         run: |
-          kubectl set image deployment/selise-rest-api selise-rest-api=seliseacr.azurecr.io/selise-rest-api:v1 --record
+          kubectl set image deployment/selise-rest-api selise-rest-api=seliseacr.azurecr.io/selise-rest-api:v1
